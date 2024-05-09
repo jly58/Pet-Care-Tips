@@ -7,6 +7,7 @@ def request_tip(pet_type):
     socket = context.socket(zmq.REQ) # REQUEST
     socket.connect("tcp://localhost:58125") # Local host address
     socket.send_string(pet_type)     # Request is the pet type
+    print(f"Sending pet type {pet_type} to server...")
     message = socket.recv()
     print(f"Your {pet_type} tip: {message}")
 
