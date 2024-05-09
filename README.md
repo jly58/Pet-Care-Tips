@@ -4,7 +4,7 @@ Pet Care Tips: a microservice that generates pet care tips
 
 **Communication Contract**
 
-**How to Request Data from the Microservice and Example Call:**
+**How to Request Data from the Microservice and Example Call:** <br>
 In order to request a random pet care tip from the microservice, please have the user input a pet type (either 'cat' or 'dog'). This pet type will then be used as an argument in the function request_tip(pet_type) which will send the request. Please refer to client.py which provides an example client code that you may use.
 
 Here's an example call:
@@ -12,7 +12,7 @@ Here's an example call:
 request_tip("dog")
 
 
-**How to Receive Data from the Microservice:**
+**How to Receive Data from the Microservice:** <br>
 In order to receive data from the microservice, you need
 to have a server that is running and listening to the request. Here, I've used ZeroMQ. The server listens for a string request that's either 'cat' or 'dog'. Then, it will send back a tip based on the pet type received. Please refer to server.py for the code.
 
