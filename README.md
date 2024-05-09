@@ -27,8 +27,7 @@ python3 server.py
 python3 client.py
 6. Request for a pet care tip on the client terminal. 
 
-UML Diagram:
-![Image description](umld.png)
+![Sequence Diagram](umld.png)
 Sources Used: 
 https://www.aspca.org/pet-care/cat-care/general-cat-care
 https://www.aspca.org/pet-care/dog-care/general-dog-care
