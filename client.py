@@ -16,7 +16,7 @@ while True:
     Please enter one of the following pet types to get a pet care tip:
                     Dog
                     Cat\n""").lower().strip()
-    if user_input != "dog" and user_input != "cat": # Error handling
+    if user_input != "dog" and user_input != "cat": # Error handling message
         print("Please enter a valid pet type")
     else: 
         request_tip(user_input)
