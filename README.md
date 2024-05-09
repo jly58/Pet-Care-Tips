@@ -28,7 +28,7 @@ python3 client.py
 6. Request for a pet care tip on the client terminal. 
 
 ![Sequence Diagram](umld.png)
-Sources Used: 
+Sources Used: <br>
 https://www.aspca.org/pet-care/cat-care/general-cat-care <br>
 https://www.aspca.org/pet-care/dog-care/general-dog-care <br>
 https://zeromq.org/languages/python/ <br>
