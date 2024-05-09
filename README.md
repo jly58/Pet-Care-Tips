@@ -14,7 +14,7 @@ request_tip("dog")
 
 **How to Receive Data from the Microservice:** <br>
 In order to receive data from the microservice, you need
-to have a server that is running and listening to the request. Here, I've used ZeroMQ. The server listens for a string request that's either 'cat' or 'dog'. Then, it will send back a tip based on the pet type received. Please refer to server.py for the code.
+to have a server that is running and listening to the request. Here, I've used ZeroMQ. The client inputs the string request, and the server listens for a string request that's either 'cat' or 'dog'. Then, it will send back a random tip based on the pet type received. Please refer to server.py for the code.
 
 Here is how to use the client.py and server.py code provided.
 
@@ -27,6 +27,8 @@ python3 server.py
 python3 client.py
 6. Request for a pet care tip on the client terminal. 
 
+UML Diagram:
+![Image description](umld.png)
 Sources Used: 
 https://www.aspca.org/pet-care/cat-care/general-cat-care
 https://www.aspca.org/pet-care/dog-care/general-dog-care
