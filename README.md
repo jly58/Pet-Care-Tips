@@ -29,7 +29,7 @@ python3 client.py
 
 ![Sequence Diagram](umld.png)
 Sources Used: 
-https://www.aspca.org/pet-care/cat-care/general-cat-care
-https://www.aspca.org/pet-care/dog-care/general-dog-care
-https://zeromq.org/languages/python/
+https://www.aspca.org/pet-care/cat-care/general-cat-care <br>
+https://www.aspca.org/pet-care/dog-care/general-dog-care <br>
+https://zeromq.org/languages/python/ <br>
 
